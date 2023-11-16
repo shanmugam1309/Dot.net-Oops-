@@ -12,6 +12,11 @@ namespace Oops_Concept
         {
             order order = new order();
             order.Orderno = "123";
+            order.Ordervalue = "1000";
+            order.Ordercountry = "India";
+
+            order.createorder();
+          
         }
     }
 }

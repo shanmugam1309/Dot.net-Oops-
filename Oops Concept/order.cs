@@ -14,15 +14,17 @@ namespace Oops_Concept
 
         public string createorder()  
         {
+            ValidateOrdervalue();
+            ValidateOrdercountry();
             return "Order Created";
         }
 
-        public bool ValidateOrdervalue()
+        private bool ValidateOrdervalue()
         {
             return true;
         }
 
-        public bool ValidateOrdercountry()
+        private bool ValidateOrdercountry()
         {
             return true;
         }
