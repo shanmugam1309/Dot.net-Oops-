@@ -16,7 +16,15 @@ namespace Oops_Concept
             order.Ordercountry = "India";
 
             order.createorder();
-          
+
+
+            Student student = new Student();
+            student.FirstName = "firstname";
+            student.LastName = "lastname";
+            student.studentAddress = "demo address";
+            student.getdetails();
+
+
         }
     }
 }

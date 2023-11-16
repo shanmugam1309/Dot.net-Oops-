@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Oops_Concept
 {
+    //Encapsulation
     public class order
     {
         public string Orderno { get; set; }
